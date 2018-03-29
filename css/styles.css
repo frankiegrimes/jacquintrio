@@ -1,0 +1,100 @@
+/* ----------------------------------------
+
+/* Colours*/
+/* ----------------------------------------
+
+/* FONT DECLARATTIONS */
+@font-face {
+  font-family: 'Proxima Nova Soft';
+  src: url("../assets/fonts/ProximaNovaSoft-Bold.woff2") format("woff2"), url("../assets/fonts/ProximaNovaSoft-Bold.woff") format("woff"), url("../assets/fonts/ProximaNovaSoft-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima Nova Soft';
+  src: url("../assets/fonts/ProximaNovaSoft-Regular.woff2") format("woff2"), url("../assets/fonts/ProximaNovaSoft-Regular.woff") format("woff"), url("../assets/fonts/ProximaNovaSoft-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url("../assets/fonts/GTWalsheimPro-Medium.woff2") format("woff2"), url("../assets/fonts/GTWalsheimPro-Medium.woff") format("woff"), url("../assets/fonts/GTWalsheimPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url("../assets/fonts/GTWalsheimPro-LightOblique.woff2") format("woff2"), url("../assets/fonts/GTWalsheimPro-LightOblique.woff") format("woff"), url("../assets/fonts/GTWalsheimPro-LightOblique.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Haboro Slab Cond';
+  src: url("../assets/fonts/HaboroSlab-ConBol.woff2") format("woff2"), url("../assets/fonts/HaboroSlab-ConBol.woff") format("woff"), url("../assets/fonts/HaboroSlab-ConBol.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Haboro Slab Ext Book';
+  src: url("../assets/fonts/HaboroSlab-ExtBoo.woff2") format("woff2"), url("../assets/fonts/HaboroSlab-ExtBoo.woff") format("woff"), url("../assets/fonts/HaboroSlab-ExtBoo.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url("../assets/fonts/ProximaNova-Regular.woff2") format("woff2"), url("../assets/fonts/ProximaNova-Regular.woff") format("woff"), url("../assets/fonts/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GTWalsheimMedium';
+  src: url("../assets/fonts/GTWalsheimMedium.woff2") format("woff2"), url("../assets/fonts/GTWalsheimMedium.woff") format("woff"), url("../assets/fonts/GTWalsheimMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GTWalsheimBold';
+  src: url("../assets/fonts/GTWalsheimBold.woff2") format("woff2"), url("../assets/fonts/GTWalsheimBold.woff") format("woff"), url("../assets/fonts/GTWalsheimBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GT Walsheim';
+  src: url("../assets/fonts/GTWalsheim-LightOblique.woff2") format("woff2"), url("../assets/fonts/GTWalsheim-LightOblique.woff") format("woff"), url("../assets/fonts/GTWalsheim-LightOblique.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url("../assets/fonts/ProximaNova-Bold.woff2") format("woff2"), url("../assets/fonts/ProximaNova-Bold.woff") format("woff"), url("../assets/fonts/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+/* ----------------------------------------
+
+/* LANDING PAGE */
+.menu-text {
+  font-family: GTWalsheimMedium; }
+
+.top-bar, .top-bar ul {
+  background-color: #fff; }
+
+.top-bar, .top-bar a {
+  color: #344692; }
+
+.menu {
+  font-family: Haboro Slab Ext Book; }
+
+.landing-logo {
+  font-family: GTWalsheimMedium;
+  font-size: 10rem;
+  color: #fff;
+  line-height: 9rem; }
+
+.block {
+  min-height: 20vh; }
+
+.landing {
+  background: url(../assets/img/bg.png) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh; }
