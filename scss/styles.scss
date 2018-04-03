@@ -6,6 +6,7 @@ $blue: #333399;
 $lightblue: #4747a3;
 $darkblue: #1e1e5b;
 $lightgrey: #999999;
+$yellow: #FFD166;
 
 
 
@@ -123,6 +124,25 @@ $lightgrey: #999999;
 
 /* ----------------------------------------
 
+/* HEADINGS */
+
+h4 {
+    font-family: 'Proxima Nova Bold';
+    color: white;
+}
+
+/* ----------------------------------------
+
+/* UTILITY */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* ----------------------------------------
+
 /* NAVIGATION*/
 
 .menu-text {
@@ -172,8 +192,9 @@ $lightgrey: #999999;
 }
 
 .top-bar-right a {
-    font-size: 1rem;
-    padding: 0rem 0.5rem;
+    font-size: 0.8rem;
+    padding: 0rem 1rem;
+    padding-right: 1rem;
 }
 
 }
@@ -197,6 +218,10 @@ $lightgrey: #999999;
     min-height: 20vh;
 }
 
+.block-small {
+    min-height: 10vh;
+}
+
 .landing {
     background: url(../assets/img/bg.png) no-repeat center center fixed;
   background-size: cover;
@@ -209,9 +234,9 @@ $lightgrey: #999999;
 
 .quotes {
     background-color: $blue;
-    min-height: 100vh;
+    min-height: 80vh;
     color: white;
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 .quotes h3, cite {
@@ -232,7 +257,7 @@ $lightgrey: #999999;
 /* About us */
 
 .about-us {
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 
@@ -268,6 +293,59 @@ $lightgrey: #999999;
     filter:brightness(0);
     transition: 0.5s ease;
 }
+
+
+/* ----------------------------------------
+
+/* OTHER PAGES */
+
+
+.header-text {
+    font-family: 'GTWalsheimMedium';
+    font-size: 5rem;
+    color: #fff;
+    line-height: 5rem;
+    position: absolute;
+    padding-top: 20rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+.header {
+
+  background-size: cover;
+  min-height: 60vh;
+
+}
+
+/* ----------------------------------------
+
+/* ABOUT */
+
+.about {
+    background: url(../assets/img/about.jpg) no-repeat center center fixed;
+}
+
+.information {
+    min-height: 100vh;
+    background-color: $yellow;
+}
+
+.information p {
+    color: white;
+    font-family: 'Proxima Nova';
+    font-size: 1rem;
+}
+
+.headshots {
+    padding-top: 10rem;
+}
+
+.headshots img {
+    max-height: 25rem;
+}
 /* ----------------------------------------
 
 /* Footer */
@@ -295,7 +373,7 @@ footer {
 }
 
 .footer-dark {
-    padding: 3rem;
+    padding: 2rem;
     background-color: #272727;
     
 }
@@ -315,6 +393,7 @@ footer {
 footer a {
     font-family: 'Proxima Nova';
     color: white;
+    font-size: 0.8rem;
 }
 
 footer .menu a:hover {

@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26330",
 "files": {
+	"\/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
 	"\/assets\/fonts\/GTWalsheim-LightOblique.ttf": {
 		"cB": 0,
 		"ft": 8192,
@@ -360,6 +367,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/about.jpg": {
+		"ft": 16384,
+		"iS": 5407369,
+		"oA": 0,
+		"oAP": "\/assets\/img\/about.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/bg.png": {
 		"ft": 32768,
 		"iS": 3700566,
@@ -379,6 +396,72 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/jessie.png": {
+		"ft": 32768,
+		"iS": 70269,
+		"oA": 0,
+		"oAP": "\/assets\/img\/jessie.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/jessie@2x.png": {
+		"ft": 32768,
+		"iS": 121219,
+		"oA": 0,
+		"oAP": "\/assets\/img\/jessie@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/lady.png": {
+		"ft": 32768,
+		"iS": 56145,
+		"oA": 0,
+		"oAP": "\/assets\/img\/lady.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/lady@2x.png": {
+		"ft": 32768,
+		"iS": 93948,
+		"oA": 0,
+		"oAP": "\/assets\/img\/lady@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/otherlady.png": {
+		"ft": 32768,
+		"iS": 66281,
+		"oA": 0,
+		"oAP": "\/assets\/img\/otherlady.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/otherlady@2x.png": {
+		"ft": 32768,
+		"iS": 117435,
+		"oA": 0,
+		"oAP": "\/assets\/img\/otherlady@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
