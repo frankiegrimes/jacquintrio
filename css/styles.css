@@ -5,25 +5,25 @@
 
 /* FONT DECLARATTIONS */
 @font-face {
-  font-family: 'Proxima Nova Soft';
+  font-family: 'Proxima Nova Bold';
   src: url("../assets/fonts/ProximaNovaSoft-Bold.woff2") format("woff2"), url("../assets/fonts/ProximaNovaSoft-Bold.woff") format("woff"), url("../assets/fonts/ProximaNovaSoft-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Proxima Nova Soft';
+  font-family: 'Proxima Nova';
   src: url("../assets/fonts/ProximaNovaSoft-Regular.woff2") format("woff2"), url("../assets/fonts/ProximaNovaSoft-Regular.woff") format("woff"), url("../assets/fonts/ProximaNovaSoft-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'GT Walsheim Pro';
+  font-family: 'GT Walsheim';
   src: url("../assets/fonts/GTWalsheimPro-Medium.woff2") format("woff2"), url("../assets/fonts/GTWalsheimPro-Medium.woff") format("woff"), url("../assets/fonts/GTWalsheimPro-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
-  font-family: 'GT Walsheim Pro';
+  font-family: 'GT Walsheim Light';
   src: url("../assets/fonts/GTWalsheimPro-LightOblique.woff2") format("woff2"), url("../assets/fonts/GTWalsheimPro-LightOblique.woff") format("woff"), url("../assets/fonts/GTWalsheimPro-LightOblique.ttf") format("truetype");
   font-weight: 300;
   font-style: italic; }
@@ -35,9 +35,15 @@
   font-style: normal; }
 
 @font-face {
-  font-family: 'Haboro Slab Ext Book';
+  font-family: 'Haboro Slab Book';
   src: url("../assets/fonts/HaboroSlab-ExtBoo.woff2") format("woff2"), url("../assets/fonts/HaboroSlab-ExtBoo.woff") format("woff"), url("../assets/fonts/HaboroSlab-ExtBoo.ttf") format("truetype");
   font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Haboro Slab Bold';
+  src: url("../assets/fonts/HaboroSlab-ExtBol.woff2") format("woff2"), url("../assets/fonts/HaboroSlab-ExtBol.woff") format("woff"), url("../assets/fonts/HaboroSlab-ExtBol.ttf") format("truetype");
+  font-weight: bold;
   font-style: normal; }
 
 @font-face {
@@ -72,24 +78,47 @@
 
 /* ----------------------------------------
 
-/* LANDING PAGE */
+/* NAVIGATION*/
 .menu-text {
-  font-family: GTWalsheimMedium; }
+  font-family: 'GTWalsheimMedium'; }
 
 .top-bar, .top-bar ul {
-  background-color: #fff; }
+  background-color: #333399; }
 
 .top-bar, .top-bar a {
-  color: #344692; }
+  color: white; }
 
 .menu {
-  font-family: Haboro Slab Ext Book; }
+  font-family: 'Haboro Slab'; }
 
+.menu a:hover {
+  color: #1e1e5b; }
+
+.active {
+  font-family: 'Haboro Slab Bold'; }
+
+.title-bar {
+  background-color: #333399; }
+
+@media screen and (min-width: 40em) {
+  .top-bar, .top-bar ul {
+    background-color: rgba(255, 255, 255, 0); }
+  .top-bar, .top-bar a {
+    color: #333399; }
+  .top-bar-right a {
+    font-size: 1rem;
+    padding: 0rem 0.5rem; } }
+
+/* ----------------------------------------
+
+/* LANDING PAGE */
 .landing-logo {
-  font-family: GTWalsheimMedium;
+  font-family: 'GTWalsheimMedium';
   font-size: 10rem;
   color: #fff;
-  line-height: 9rem; }
+  line-height: 9rem;
+  position: absolute;
+  top: 30vh; }
 
 .block {
   min-height: 20vh; }
@@ -98,3 +127,88 @@
   background: url(../assets/img/bg.png) no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh; }
+
+/* ----------------------------------------
+
+/* Quotes */
+.quotes {
+  background-color: #333399;
+  min-height: 100vh;
+  color: white;
+  padding-top: 10rem; }
+
+.quotes h3, cite {
+  color: white; }
+
+.quotes h3 {
+  font-size: 3rem; }
+
+#quote-array, #cite-array {
+  text-transform: uppercase; }
+
+/* ----------------------------------------
+
+/* About us */
+.about-us {
+  min-height: 100vh; }
+
+.about-us p {
+  color: #333399;
+  font-family: 'Proxima Nova';
+  font-size: 1.5rem; }
+
+.button {
+  background-color: #333399;
+  border: solid 2px white; }
+
+.about-us .button {
+  margin-top: -2rem; }
+
+.about-us .button:hover {
+  background-color: #1e1e5b; }
+
+.icons {
+  padding-top: 2rem; }
+
+.about-us .thumbnail {
+  box-shadow: none; }
+
+.icons img:hover {
+  filter: brightness(0);
+  transition: 0.5s ease; }
+
+/* ----------------------------------------
+
+/* Footer */
+.footer-light {
+  background-color: #484848; }
+
+.footer-light .cell {
+  text-align: center; }
+
+.footer-light .thumbnail {
+  box-shadow: none;
+  border: none;
+  padding: 1rem;
+  padding-top: 2rem; }
+
+.footer-dark {
+  padding: 3rem;
+  background-color: #272727; }
+
+.footer-black {
+  background-color: black; }
+
+.footer-black p {
+  color: white;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  font-size: 0.7rem;
+  font-family: 'Proxima Nova'; }
+
+footer a {
+  font-family: 'Proxima Nova';
+  color: white; }
+
+footer .menu a:hover {
+  color: #999999; }

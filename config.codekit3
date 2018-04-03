@@ -135,6 +135,27 @@
 		"oAP": "\/assets\/fonts\/HaboroSlab-ConBol.woff2",
 		"oF": 0
 		},
+	"\/assets\/fonts\/HaboroSlab-ExtBol.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/HaboroSlab-ExtBol.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/HaboroSlab-ExtBol.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/HaboroSlab-ExtBol.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/HaboroSlab-ExtBol.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/fonts\/HaboroSlab-ExtBol.woff2",
+		"oF": 0
+		},
 	"\/assets\/fonts\/HaboroSlab-ExtBoo.ttf": {
 		"cB": 0,
 		"ft": 8192,
@@ -240,6 +261,105 @@
 		"oAP": "\/assets\/fonts\/ProximaNovaSoft-Regular.woff2",
 		"oF": 0
 		},
+	"\/assets\/icons\/clarinet-blue.png": {
+		"ft": 32768,
+		"iS": 43893,
+		"oA": 0,
+		"oAP": "\/assets\/icons\/clarinet-blue.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/icons\/facebook.png": {
+		"ft": 32768,
+		"iS": 691,
+		"oA": 0,
+		"oAP": "\/assets\/icons\/facebook.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/icons\/facebook@2x.png": {
+		"ft": 32768,
+		"iS": 910,
+		"oA": 0,
+		"oAP": "\/assets\/icons\/facebook@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/icons\/instagram.png": {
+		"ft": 32768,
+		"iS": 1239,
+		"oA": 0,
+		"oAP": "\/assets\/icons\/instagram.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/icons\/instagram@2x.png": {
+		"ft": 32768,
+		"iS": 2348,
+		"oA": 0,
+		"oAP": "\/assets\/icons\/instagram@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/icons\/piano-blue.png": {
+		"ft": 32768,
+		"iS": 65616,
+		"oA": 0,
+		"oAP": "\/assets\/icons\/piano-blue.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/icons\/twitter.png": {
+		"ft": 32768,
+		"iS": 1069,
+		"oA": 0,
+		"oAP": "\/assets\/icons\/twitter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/icons\/twitter@2x.png": {
+		"ft": 32768,
+		"iS": 1743,
+		"oA": 0,
+		"oAP": "\/assets\/icons\/twitter@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/icons\/viola-blue.png": {
+		"ft": 32768,
+		"iS": 46647,
+		"oA": 0,
+		"oAP": "\/assets\/icons\/viola-blue.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/bg.png": {
 		"ft": 32768,
 		"iS": 3700566,
@@ -304,8 +424,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/functions-min.js",
-		"oF": 0,
+		"oAP": "\/js\/min\/functions-min.js",
+		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},
@@ -325,6 +445,16 @@
 		"oA": 0,
 		"oAP": "\/js\/min\/app-min.js.map",
 		"oF": 0
+		},
+	"\/js\/min\/functions-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/functions-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/node_modules": {
 		"ft": 65536,
